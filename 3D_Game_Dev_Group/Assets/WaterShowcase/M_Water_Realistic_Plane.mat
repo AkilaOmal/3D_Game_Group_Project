@@ -113,7 +113,7 @@ Material:
     - _Swell_Length: 4.2
     - _Swell_Speed: 0.85
     - _Volume_Fallback_Thickness: 0.5
-    - _Water_Opacity: 0.72
+    - _Water_Opacity: 0.63
     - _Water_Specular: 0.025
     - _Wave_1_Height: 0.05
     - _Wave_1_Scale: 1.4

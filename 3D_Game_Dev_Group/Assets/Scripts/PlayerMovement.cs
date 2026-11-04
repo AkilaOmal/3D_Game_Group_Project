@@ -140,6 +140,7 @@ public class PlayerMovement : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Entered: " + other.name);
         var w = other.GetComponentInParent<WaterZone>();
         if (w != null && !waters.Contains(w)) waters.Add(w);
     }

@@ -823,7 +823,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -900,6 +900,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+ HEAD
+ Updated upstream
+
+
+ main
 --- !u!65 &526115656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1435,6 +1440,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+ HEAD
 --- !u!1001 &837907943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1504,6 +1510,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53cdbef058d77ac40a79f1ab2b3ec065, type: 3}
+
+ main
 --- !u!1 &844299896
 GameObject:
   m_ObjectHideFlags: 0
@@ -2078,6 +2086,7 @@ MonoBehaviour:
         DecelTime: 0
   PlayerIndex: -1
   AutoEnableInputs: 1
+ HEAD
 --- !u!1001 &958778884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2147,6 +2156,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f558eec70a6af7a4db48e5ad46bab3eb, type: 3}
+
+ main
 --- !u!1 &980374339
 GameObject:
   m_ObjectHideFlags: 0
@@ -2932,6 +2943,10 @@ Transform:
   - {fileID: 868381871}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+ HEAD
+ Stashed changes
+
+ main
 --- !u!1001 &1569747357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3420,9 +3435,9 @@ MonoBehaviour:
   jumpHeight: 10
   gravity: -20
   swimSpeed: 2
-  sinkSpeed: 0.00001
+  sinkSpeed: 1.5
   swimUpSpeed: 2.5
-  swimDepth: 0.6
+  swimDepth: 10
   floatDepth: 1
 --- !u!114 &1803448288
 MonoBehaviour:
@@ -3968,14 +3983,23 @@ SceneRoots:
   - {fileID: 1569747357}
   - {fileID: 6657490}
   - {fileID: 2023551832}
-  - {fileID: 516575529}
-  - {fileID: 594214683}
-  - {fileID: 958496521}
-  - {fileID: 1446237077}
-  - {fileID: 1545993841}
-  - {fileID: 1587656045}
-  - {fileID: 2007106946}
-  - {fileID: 1307447950}
+ HEAD
+ Updated upstream
+
+
+ main
   - {fileID: 1572152286}
-  - {fileID: 837907943}
+  - {fileID: 1587656045}
+  - {fileID: 958496521}
+  - {fileID: 1545993841}
+  - {fileID: 1307447950}
+  - {fileID: 1446237077}
+  - {fileID: 594214683}
+  - {fileID: 2007106946}
+  - {fileID: 516575529}
+ HEAD
   - {fileID: 958778884}
+  - {fileID: 837907943}
+ Stashed changes
+
+ main

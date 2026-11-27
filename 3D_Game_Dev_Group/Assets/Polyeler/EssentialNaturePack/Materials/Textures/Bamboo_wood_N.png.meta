@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: b485d4ae73d488a4aac54fa9d9846b02
+=======
+guid: bb124995a906e514eb24acf483a86199
+>>>>>>> Nisandi
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -7,7 +11,11 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+<<<<<<< HEAD
     sRGBTexture: 1
+=======
+    sRGBTexture: 0
+>>>>>>> Nisandi
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -53,10 +61,15 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 0
+<<<<<<< HEAD
   spriteTessellationMethod: 0
   spriteTessellationDetail: -1
   spriteGeometrySubdivision: -1
   textureType: 0
+=======
+  spriteTessellationDetail: -1
+  textureType: 1
+>>>>>>> Nisandi
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -69,7 +82,11 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
+<<<<<<< HEAD
   - serializedVersion: 4
+=======
+  - serializedVersion: 3
+>>>>>>> Nisandi
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -82,7 +99,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
   - serializedVersion: 4
+=======
+  - serializedVersion: 3
+>>>>>>> Nisandi
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -95,6 +116,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
   - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
@@ -121,11 +143,16 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> Nisandi
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
+<<<<<<< HEAD
     customData: 
+=======
+>>>>>>> Nisandi
     physicsShape: []
     bones: []
     spriteID: 
@@ -135,11 +162,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
     spriteCustomMetadata:
       entries: []
+=======
+>>>>>>> Nisandi
     nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
+=======
+AssetOrigin:
+  serializedVersion: 1
+  productId: 381800
+  packageName: Essential Nature Pack
+  packageVersion: 1.0
+  assetPath: Assets/Polyeler/EssentialNaturePack/Materials/Textures/Bamboo_wood_N.png
+  uploadId: 920896
+>>>>>>> Nisandi

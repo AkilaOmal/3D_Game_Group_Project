@@ -3,7 +3,37 @@ guid: b1ef65aed85ae6f48a744d8d6acf1713
 ModelImporter:
   serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boat_Blue_Material
+    second: {fileID: 2100000, guid: bec141652260ece46b1b763ed92a2202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cabin_Glass_Blue
+    second: {fileID: 2100000, guid: d3889481a1124fb4991fc36e0cb8057d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cabin_White
+    second: {fileID: 2100000, guid: 14f5ee27cedf13c4e8747e26887b4d79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Container_Dark_Gray
+    second: {fileID: 2100000, guid: 814781be89829e045a8b82051d1fc81e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Conveyor_Black
+    second: {fileID: 2100000, guid: fb491c5e15cf8554b911628231c21803, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Conveyor_Silver
+    second: {fileID: 2100000, guid: af3d832dbab9c93418eb22a2ce4c61f7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

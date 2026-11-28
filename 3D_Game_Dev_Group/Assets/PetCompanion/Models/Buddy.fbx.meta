@@ -3,7 +3,42 @@ guid: c98762a559bbacd4d921312e8ef8cf05
 ModelImporter:
   serializedVersion: 24600
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Buddy_Glass
+    second: {fileID: 2100000, guid: 52588d93675ea7b44966effa65d70ede, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Buddy_Gunmetal
+    second: {fileID: 2100000, guid: ba06d3c7a14ab9c4687e300a051e978e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Buddy_LED
+    second: {fileID: 2100000, guid: d1fecdb4fe3ec704ea2693b9c4288b45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Buddy_Rubber
+    second: {fileID: 2100000, guid: e536dfdfce5a66d4099237fa250564b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Buddy_Steel
+    second: {fileID: 2100000, guid: c4839b08a8e7d2f4bae2e5ac46827058, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Buddy_Trim
+    second: {fileID: 2100000, guid: d7528eb5b4727b045a9fa0e8414b7824, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Buddy_WhiteMetal
+    second: {fileID: 2100000, guid: f16367e60e9330346875c9b4798d1bc4, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -23,7 +58,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -146,8 +181,797 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: Root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg_FL
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg_FR
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg_FL
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg_FR
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ankle_Joint_FL
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ankle_Joint_FR
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head_Main
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye_LED_Left
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye_LED_Right
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head_Visor
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Buddy(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Buddy_Rig
+      parentName: Buddy(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root
+      parentName: Buddy_Rig
+      position: {x: 0, y: 0.30499992, z: 0.000000029802322}
+      rotation: {x: 0.5000001, y: -0.49999994, z: -0.5, w: 0.5}
+      scale: {x: 0.9999996, y: 1, z: 0.9999998}
+    - name: Body
+      parentName: Root
+      position: {x: -0, y: 0.61, z: 0}
+      rotation: {x: -0.50000006, y: 0.5, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+    - name: Armour_Left
+      parentName: Body
+      position: {x: 0.17, y: 0, z: 0.00999999}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armour_Right
+      parentName: Body
+      position: {x: -0.17, y: 0, z: 0.00999999}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armour_Top
+      parentName: Body
+      position: {x: -0, y: 0, z: 0.13999999}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Battery_Pack
+      parentName: Body
+      position: {x: -0, y: 0.25, z: 0.20999998}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Battery_Rib_18
+      parentName: Body
+      position: {x: -0, y: 0.18, z: 0.255}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Battery_Rib_24
+      parentName: Body
+      position: {x: -0, y: 0.24, z: 0.255}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Battery_Rib_30
+      parentName: Body
+      position: {x: -0, y: 0.3, z: 0.255}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_Main
+      parentName: Body
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Buddy_Logo
+      parentName: Body
+      position: {x: -0.202, y: 0.010000005, z: 0.004999995}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: -0.49999997}
+      scale: {x: 1.25, y: 1.25, z: 1.25}
+    - name: Buddy_Nameplate
+      parentName: Body
+      position: {x: -0.195, y: 0.010000005, z: 0.004999995}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_Fastener_L
+      parentName: Body
+      position: {x: 0.115, y: -0.481, z: -0.050000012}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_Fastener_R
+      parentName: Body
+      position: {x: -0.115, y: -0.481, z: -0.050000012}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_Panel
+      parentName: Body
+      position: {x: -0, y: -0.45, z: 0}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_Status_Light_L
+      parentName: Body
+      position: {x: 0.115, y: -0.481, z: 0.03999996}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Front_Status_Light_R
+      parentName: Body
+      position: {x: -0.115, y: -0.481, z: 0.03999996}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: JointStatusLight_FL
+      parentName: Body
+      position: {x: -0.281, y: -0.305, z: -0.08500004}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: JointStatusLight_FR
+      parentName: Body
+      position: {x: 0.281, y: -0.305, z: -0.08500004}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: JointStatusLight_RL
+      parentName: Body
+      position: {x: -0.281, y: 0.3, z: -0.08500004}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: JointStatusLight_RR
+      parentName: Body
+      position: {x: 0.281, y: 0.3, z: -0.08500004}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nameplate_Bolt_01
+      parentName: Body
+      position: {x: -0.198, y: -0.125, z: -0.027999997}
+      rotation: {x: -1.2560743e-15, y: -0.70710677, z: -1.2560743e-15, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nameplate_Bolt_02
+      parentName: Body
+      position: {x: -0.198, y: 0.145, z: -0.027999997}
+      rotation: {x: -1.2560743e-15, y: -0.70710677, z: -1.2560743e-15, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nameplate_Bolt_03
+      parentName: Body
+      position: {x: -0.198, y: -0.125, z: 0.037999988}
+      rotation: {x: -1.2560743e-15, y: -0.70710677, z: -1.2560743e-15, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nameplate_Bolt_04
+      parentName: Body
+      position: {x: -0.198, y: 0.145, z: 0.037999988}
+      rotation: {x: -1.2560743e-15, y: -0.70710677, z: -1.2560743e-15, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearHip_Joint_RL
+      parentName: Body
+      position: {x: -0.195, y: 0.3, z: -0.09000003}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearHip_Joint_RR
+      parentName: Body
+      position: {x: 0.195, y: 0.3, z: -0.09000003}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearHip_Mount_RL
+      parentName: Body
+      position: {x: -0.15, y: 0.29, z: -0.07499999}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearHip_Mount_RR
+      parentName: Body
+      position: {x: 0.15, y: 0.29, z: -0.07499999}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearServoBolt_RL_01
+      parentName: Body
+      position: {x: -0.28, y: 0.257, z: -0.12800002}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearServoBolt_RL_02
+      parentName: Body
+      position: {x: -0.28, y: 0.257, z: -0.041999996}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearServoBolt_RL_03
+      parentName: Body
+      position: {x: -0.28, y: 0.343, z: -0.12800002}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearServoBolt_RL_04
+      parentName: Body
+      position: {x: -0.28, y: 0.343, z: -0.041999996}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearServoBolt_RR_01
+      parentName: Body
+      position: {x: 0.28, y: 0.257, z: -0.12800002}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearServoBolt_RR_02
+      parentName: Body
+      position: {x: 0.28, y: 0.257, z: -0.041999996}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearServoBolt_RR_03
+      parentName: Body
+      position: {x: 0.28, y: 0.343, z: -0.12800002}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearServoBolt_RR_04
+      parentName: Body
+      position: {x: 0.28, y: 0.343, z: -0.041999996}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearServo_RL
+      parentName: Body
+      position: {x: -0.235, y: 0.3, z: -0.09000003}
+      rotation: {x: -1.2560743e-15, y: -0.70710677, z: -1.2560743e-15, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RearServo_RR
+      parentName: Body
+      position: {x: 0.235, y: 0.3, z: -0.09000003}
+      rotation: {x: 1.2560743e-15, y: 0.70710677, z: -1.2560743e-15, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rear_Exhaust_Slot_L
+      parentName: Body
+      position: {x: 0.115, y: 0.481, z: 0}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rear_Exhaust_Slot_R
+      parentName: Body
+      position: {x: -0.115, y: 0.481, z: 0}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rear_Panel
+      parentName: Body
+      position: {x: -0, y: 0.45, z: 0}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ServoBolt_FL_01
+      parentName: Body
+      position: {x: -0.28, y: -0.348, z: -0.12800002}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ServoBolt_FL_02
+      parentName: Body
+      position: {x: -0.28, y: -0.348, z: -0.041999996}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ServoBolt_FL_03
+      parentName: Body
+      position: {x: -0.28, y: -0.26199996, z: -0.12800002}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ServoBolt_FL_04
+      parentName: Body
+      position: {x: -0.28, y: -0.26199996, z: -0.041999996}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ServoBolt_FR_01
+      parentName: Body
+      position: {x: 0.28, y: -0.348, z: -0.12800002}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ServoBolt_FR_02
+      parentName: Body
+      position: {x: 0.28, y: -0.348, z: -0.041999996}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ServoBolt_FR_03
+      parentName: Body
+      position: {x: 0.28, y: -0.26199996, z: -0.12800002}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ServoBolt_FR_04
+      parentName: Body
+      position: {x: 0.28, y: -0.26199996, z: -0.041999996}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ServoMotor_FL
+      parentName: Body
+      position: {x: -0.235, y: -0.305, z: -0.09000003}
+      rotation: {x: -1.2560743e-15, y: -0.70710677, z: -1.2560743e-15, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ServoMotor_FR
+      parentName: Body
+      position: {x: 0.235, y: -0.305, z: -0.09000003}
+      rotation: {x: 1.2560743e-15, y: 0.70710677, z: -1.2560743e-15, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder_Joint_FL
+      parentName: Body
+      position: {x: -0.195, y: -0.305, z: -0.09000003}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder_Joint_FR
+      parentName: Body
+      position: {x: 0.195, y: -0.305, z: -0.09000003}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder_Mount_FL
+      parentName: Body
+      position: {x: -0.15, y: -0.28999996, z: -0.07499999}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder_Mount_FR
+      parentName: Body
+      position: {x: 0.15, y: -0.28999996, z: -0.07499999}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail_Base
+      parentName: Body
+      position: {x: -0, y: 0.455, z: 0}
+      rotation: {x: 0, y: 0, z: -1.7763568e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail
+      parentName: Body
+      position: {x: -0, y: 0.435, z: 0}
+      rotation: {x: 0.19692506, y: -0, z: 0.000000029802322, w: 0.9804186}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000002}
+    - name: Tail_Tip
+      parentName: Tail
+      position: {x: -0, y: 0.2330772, z: 0.000000029802322}
+      rotation: {x: 0.071927, y: 0.000000021263508, z: -0.000000034589767, w: 0.99740994}
+      scale: {x: 1, y: 0.99999976, z: 0.99999976}
+    - name: Neck
+      parentName: Body
+      position: {x: -0, y: -0.39, z: -0.030000031}
+      rotation: {x: 0.6026337, y: -0.36990887, z: -0.6026338, w: 0.36990902}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1}
+    - name: Neck_Joint
+      parentName: Neck
+      position: {x: 0.06806716, y: 0.03149374, z: 0.0000000051389275}
+      rotation: {x: 0.6856514, y: -0.17286469, z: -0.6856513, w: -0.17286472}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -0.000000029802322, y: 0.14764827, z: -1.7763568e-15}
+      rotation: {x: 0.0020009386, y: 0.7071041, z: 0.0020010166, w: -0.7071038}
+      scale: {x: 1.0000013, y: 1.0000002, z: 1.0000004}
+    - name: Head_Main
+      parentName: Head
+      position: {x: 0.0000000025055495, y: 0.07000007, z: 0.000000042021277}
+      rotation: {x: -0.0000000045332147, y: 0.000000014901161, z: 1, w: 0.0000000754979}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Camera_Sensor
+      parentName: Head_Main
+      position: {x: -0, y: -0.24800003, z: -0.06399995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Camera_Sensor_Bezel
+      parentName: Head_Main
+      position: {x: -0, y: -0.227, z: -0.065}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Distance_Sensor_Left
+      parentName: Head_Main
+      position: {x: 0.062, y: -0.20900005, z: -0.06399995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Distance_Sensor_Right
+      parentName: Head_Main
+      position: {x: -0.062, y: -0.20900005, z: -0.06399995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ear_Inset_Left
+      parentName: Head_Main
+      position: {x: 0.184, y: 0.029999971, z: 0.07000005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ear_Inset_Right
+      parentName: Head_Main
+      position: {x: -0.184, y: 0.029999971, z: 0.07000005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ear_Pod_Left
+      parentName: Head_Main
+      position: {x: 0.145, y: 0.034999967, z: 0.074}
+      rotation: {x: 0, y: 0.1045285, z: -0, w: 0.9945219}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ear_Pod_Right
+      parentName: Head_Main
+      position: {x: -0.145, y: 0.034999967, z: 0.074}
+      rotation: {x: 0, y: -0.1045285, z: -0, w: 0.9945219}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye_LED_Left
+      parentName: Head_Main
+      position: {x: 0.055, y: -0.176, z: 0.025000036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye_LED_Right
+      parentName: Head_Main
+      position: {x: -0.055, y: -0.176, z: 0.025000036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_Visor
+      parentName: Head_Main
+      position: {x: -1.323489e-23, y: -0.15400004, z: 0.01700002}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muzzle_Shell
+      parentName: Head_Main
+      position: {x: -0, y: -0.16000003, z: -0.06799996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg_FL
+      parentName: Body
+      position: {x: -0.165, y: -0.305, z: -0.08500004}
+      rotation: {x: 0.5348127, y: 0.4514891, z: -0.54420364, w: -0.46257472}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000001}
+    - name: KneeBolt_FL_01
+      parentName: UpperLeg_FL
+      position: {x: -0.02564621, y: 0.24927893, z: 0.0798953}
+      rotation: {x: -0.5348149, y: -0.45148653, z: 0.5442059, w: -0.46257207}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: KneeBolt_FL_02
+      parentName: UpperLeg_FL
+      position: {x: 0.02564627, y: 0.24073198, z: 0.08007093}
+      rotation: {x: -0.5348149, y: -0.45148653, z: 0.5442059, w: -0.46257207}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: Knee_Cap_FL
+      parentName: UpperLeg_FL
+      position: {x: 0.000000029802322, y: 0.24457401, z: 0.058987558}
+      rotation: {x: -0.0066403826, y: -0.007838655, z: -0.76297975, w: 0.6463407}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: Knee_Joint_FL
+      parentName: UpperLeg_FL
+      position: {x: 0.000000029802322, y: 0.24336183, z: 0.000000014901161}
+      rotation: {x: -0.5348149, y: -0.45148653, z: 0.5442059, w: -0.46257207}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: UpperLeg_Armor_FL
+      parentName: UpperLeg_FL
+      position: {x: -0.0039455593, y: 0.12364299, z: 0.063473105}
+      rotation: {x: -0.5657771, y: -0.41242808, z: 0.57437193, w: -0.4241417}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999998}
+    - name: UpperLeg_FL
+      parentName: UpperLeg_FL
+      position: {x: -0, y: -0.000000074505806, z: 0.000000014901161}
+      rotation: {x: -0.5657771, y: -0.41242808, z: 0.57437193, w: -0.4241417}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999998}
+    - name: LowerLeg_FL
+      parentName: UpperLeg_FL
+      position: {x: 0.000000030193476, y: 0.24336188, z: -0.000000008265488}
+      rotation: {x: -0.010271042, y: -0.00021886823, z: -0.021303771, w: 0.9997203}
+      scale: {x: 1.0000002, y: 1.0000013, z: 1.0000001}
+    - name: ActuatorRod_FL
+      parentName: LowerLeg_FL
+      position: {x: 0.03491357, y: 0.1035086, z: 0.038000003}
+      rotation: {x: 0.5457026, y: 0.4496762, z: -0.5457025, w: 0.44967628}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Ankle_Joint_FL
+      parentName: LowerLeg_FL
+      position: {x: 0.000000029802322, y: 0.20453353, z: 0}
+      rotation: {x: 0.5296767, y: 0.46844706, z: -0.5296766, w: 0.4684471}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: LowerLeg_FL
+      parentName: LowerLeg_FL
+      position: {x: -0, y: -0.000000059604645, z: 0.000000014901161}
+      rotation: {x: 0.5417577, y: 0.4544212, z: -0.5417576, w: 0.45442128}
+      scale: {x: 1, y: 0.99999994, z: 0.99999976}
+    - name: Paw_FL
+      parentName: LowerLeg_FL
+      position: {x: -0.00000002498939, y: 0.20453358, z: 4.2886805e-12}
+      rotation: {x: -0.000000066123896, y: 0.000000024054312, z: -0.5378498, w: -0.8430407}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.000001}
+    - name: Paw_FL
+      parentName: Paw_FL
+      position: {x: -0.000000014901161, y: -0.000000029802322, z: -0.000000014901161}
+      rotation: {x: 0.6984932, y: 0.110033475, z: -0.6984931, w: 0.11003348}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: RubberPad_FL
+      parentName: Paw_FL
+      position: {x: 0.050403953, y: 0.08143979, z: -0.000000014901161}
+      rotation: {x: 0.6984932, y: 0.110033475, z: -0.6984931, w: 0.11003348}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: UpperLeg_FR
+      parentName: Body
+      position: {x: 0.165, y: -0.305, z: -0.08500004}
+      rotation: {x: 0.53481275, y: -0.45148912, z: 0.54420364, w: -0.46257466}
+      scale: {x: 1.0000007, y: 1.0000014, z: 1.0000004}
+    - name: KneeBolt_FR_01
+      parentName: UpperLeg_FR
+      position: {x: 0.02564621, y: 0.24927893, z: 0.0798953}
+      rotation: {x: 0.5348149, y: -0.45148653, z: 0.5442059, w: 0.46257207}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: KneeBolt_FR_02
+      parentName: UpperLeg_FR
+      position: {x: -0.02564627, y: 0.24073198, z: 0.08007093}
+      rotation: {x: 0.5348149, y: -0.45148653, z: 0.5442059, w: 0.46257207}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: Knee_Cap_FR
+      parentName: UpperLeg_FR
+      position: {x: -0.000000029802322, y: 0.24457401, z: 0.058987558}
+      rotation: {x: -0.0066403826, y: 0.007838655, z: 0.76297975, w: 0.6463407}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: Knee_Joint_FR
+      parentName: UpperLeg_FR
+      position: {x: -0.000000029802322, y: 0.24336183, z: 0.000000014901161}
+      rotation: {x: 0.5348149, y: -0.45148653, z: 0.5442059, w: 0.46257207}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: UpperLeg_Armor_FR
+      parentName: UpperLeg_FR
+      position: {x: 0.0039455593, y: 0.12364299, z: 0.063473105}
+      rotation: {x: 0.5657771, y: -0.41242808, z: 0.57437193, w: 0.4241417}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999998}
+    - name: UpperLeg_FR
+      parentName: UpperLeg_FR
+      position: {x: -0, y: -0.000000074505806, z: 0.000000014901161}
+      rotation: {x: 0.5657771, y: -0.41242808, z: 0.57437193, w: 0.4241417}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999998}
+    - name: LowerLeg_FR
+      parentName: UpperLeg_FR
+      position: {x: -0.000000030193476, y: 0.24336188, z: -0.000000008265488}
+      rotation: {x: -0.010270922, y: 0.00021889803, z: 0.021303741, w: 0.9997203}
+      scale: {x: 1.0000007, y: 1.000003, z: 1.0000008}
+    - name: ActuatorRod_FR
+      parentName: LowerLeg_FR
+      position: {x: -0.03491357, y: 0.1035086, z: 0.038000003}
+      rotation: {x: 0.5457026, y: -0.4496762, z: 0.5457025, w: 0.44967628}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Ankle_Joint_FR
+      parentName: LowerLeg_FR
+      position: {x: -0.000000029802322, y: 0.20453353, z: 0}
+      rotation: {x: 0.5296767, y: -0.46844706, z: 0.5296766, w: 0.4684471}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: LowerLeg_FR
+      parentName: LowerLeg_FR
+      position: {x: -0, y: -0.000000059604645, z: 0.000000014901161}
+      rotation: {x: 0.5417577, y: -0.4544212, z: 0.5417576, w: 0.45442128}
+      scale: {x: 1, y: 0.99999994, z: 0.99999976}
+    - name: Paw_FR
+      parentName: LowerLeg_FR
+      position: {x: 0.00000002498939, y: 0.20453358, z: 4.2886805e-12}
+      rotation: {x: 0.000000040046867, y: -0.000000031213855, z: -0.5378498, w: 0.84304076}
+      scale: {x: 1.000001, y: 1.0000008, z: 1.0000011}
+    - name: Paw_FR
+      parentName: Paw_FR
+      position: {x: 0.000000014901161, y: -0.000000029802322, z: -0.000000014901161}
+      rotation: {x: 0.6984932, y: -0.110033475, z: 0.6984931, w: 0.11003348}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: RubberPad_FR
+      parentName: Paw_FR
+      position: {x: -0.050403953, y: 0.08143979, z: -0.000000014901161}
+      rotation: {x: 0.6984932, y: -0.110033475, z: 0.6984931, w: 0.11003348}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: UpperLeg_RL
+      parentName: Body
+      position: {x: -0.165, y: 0.3, z: -0.08500004}
+      rotation: {x: 0.62531257, y: 0.31945089, z: -0.63083375, w: -0.33012748}
+      scale: {x: 1.0000004, y: 1.0000012, z: 1.0000008}
+    - name: Knee_Cap_RL
+      parentName: UpperLeg_RL
+      position: {x: 0.000000007450581, y: 0.29515412, z: 0.05899149}
+      rotation: {x: 0.0039040362, y: 0.007549575, z: 0.88822955, w: -0.45932132}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+    - name: Knee_Joint_RL
+      parentName: UpperLeg_RL
+      position: {x: 0.000000007450581, y: 0.29415125, z: 0}
+      rotation: {x: -0.62531376, y: -0.31944856, z: 0.6308349, w: -0.33012527}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: RearKneeBolt_RL_01
+      parentName: UpperLeg_RL
+      position: {x: -0.021216653, y: 0.31053737, z: 0.07973303}
+      rotation: {x: -0.62531376, y: -0.31944856, z: 0.6308349, w: -0.33012527}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: RearKneeBolt_RL_02
+      parentName: UpperLeg_RL
+      position: {x: 0.021216638, y: 0.28048483, z: 0.08024393}
+      rotation: {x: -0.62531376, y: -0.31944856, z: 0.6308349, w: -0.33012527}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: UpperLeg_Armor_RL
+      parentName: UpperLeg_RL
+      position: {x: -0, y: 0.14815497, z: 0.06349084}
+      rotation: {x: -0.67313933, y: -0.20505255, z: 0.6767226, w: -0.21652588}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
+    - name: UpperLeg_RL
+      parentName: UpperLeg_RL
+      position: {x: -0.000000059604645, y: 0, z: 0}
+      rotation: {x: -0.67313933, y: -0.20505255, z: 0.6767226, w: -0.21652588}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
+    - name: LowerLeg_RL
+      parentName: UpperLeg_RL
+      position: {x: 0.000000020600854, y: 0.29415137, z: -0.0000000019790605}
+      rotation: {x: -0.006807386, y: -0.0050885524, z: -0.5986917, w: 0.80093455}
+      scale: {x: 1.0000005, y: 1.0000004, z: 0.99999994}
+    - name: ActuatorRod_RL
+      parentName: LowerLeg_RL
+      position: {x: -0.010020316, y: 0.12579578, z: 0.037999988}
+      rotation: {x: 0.49893263, y: 0.5010651, z: -0.49893254, w: 0.5010652}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000001}
+    - name: Ankle_Joint_RL
+      parentName: LowerLeg_RL
+      position: {x: 0.000000029802322, y: 0.25847435, z: 0}
+      rotation: {x: 0.30861923, y: 0.63620293, z: -0.30861917, w: 0.63620305}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+    - name: LowerLeg_RL
+      parentName: LowerLeg_RL
+      position: {x: 0.000000037252903, y: -0.000000059604645, z: 0.000000014901161}
+      rotation: {x: 0.49893263, y: 0.5010651, z: -0.49893254, w: 0.5010652}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000001}
+    - name: Paw_RL
+      parentName: LowerLeg_RL
+      position: {x: 0.000000019239142, y: 0.25847438, z: -0.00000001132165}
+      rotation: {x: 0.00000022677702, y: -0.000000012572853, z: -0.8319644, w: -0.55482906}
+      scale: {x: 1.0000011, y: 1.0000019, z: 1.0000012}
+    - name: Paw_RL
+      parentName: Paw_RL
+      position: {x: -0.000000014901161, y: -0.00000008940697, z: 0}
+      rotation: {x: 0.70052916, y: 0.09622369, z: -0.7005291, w: 0.0962237}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: RubberPad_RL
+      parentName: Paw_RL
+      position: {x: 0.05870226, y: 0.061090395, z: 0}
+      rotation: {x: 0.70052916, y: 0.09622369, z: -0.7005291, w: 0.0962237}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: UpperLeg_RR
+      parentName: Body
+      position: {x: 0.165, y: 0.3, z: -0.08500004}
+      rotation: {x: 0.6253126, y: -0.3194509, z: 0.6308337, w: -0.33012745}
+      scale: {x: 1.0000005, y: 1.0000015, z: 1.000001}
+    - name: Knee_Cap_RR
+      parentName: UpperLeg_RR
+      position: {x: -0.000000007450581, y: 0.29515412, z: 0.05899149}
+      rotation: {x: -0.0039040362, y: 0.007549575, z: 0.88822955, w: 0.45932132}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+    - name: Knee_Joint_RR
+      parentName: UpperLeg_RR
+      position: {x: -0.000000007450581, y: 0.29415125, z: 0}
+      rotation: {x: 0.62531376, y: -0.31944856, z: 0.6308349, w: 0.33012527}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: RearKneeBolt_RR_01
+      parentName: UpperLeg_RR
+      position: {x: 0.021216653, y: 0.31053737, z: 0.07973303}
+      rotation: {x: 0.62531376, y: -0.31944856, z: 0.6308349, w: 0.33012527}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: RearKneeBolt_RR_02
+      parentName: UpperLeg_RR
+      position: {x: -0.021216638, y: 0.28048483, z: 0.08024393}
+      rotation: {x: 0.62531376, y: -0.31944856, z: 0.6308349, w: 0.33012527}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: UpperLeg_Armor_RR
+      parentName: UpperLeg_RR
+      position: {x: -0, y: 0.14815497, z: 0.06349084}
+      rotation: {x: 0.67313933, y: -0.20505255, z: 0.6767226, w: 0.21652588}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
+    - name: UpperLeg_RR
+      parentName: UpperLeg_RR
+      position: {x: 0.000000059604645, y: 0, z: 0}
+      rotation: {x: 0.67313933, y: -0.20505255, z: 0.6767226, w: 0.21652588}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
+    - name: LowerLeg_RR
+      parentName: UpperLeg_RR
+      position: {x: -0.000000020600854, y: 0.29415137, z: -0.0000000019790605}
+      rotation: {x: -0.0068072965, y: 0.005088582, z: 0.5986917, w: 0.80093455}
+      scale: {x: 1.0000013, y: 1.0000013, z: 1.000001}
+    - name: ActuatorRod_RR
+      parentName: LowerLeg_RR
+      position: {x: 0.010020316, y: 0.12579578, z: 0.037999988}
+      rotation: {x: 0.49893263, y: -0.5010651, z: 0.49893254, w: 0.5010652}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000001}
+    - name: Ankle_Joint_RR
+      parentName: LowerLeg_RR
+      position: {x: -0.000000029802322, y: 0.25847435, z: 0}
+      rotation: {x: 0.30861923, y: -0.63620293, z: 0.30861917, w: 0.63620305}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+    - name: LowerLeg_RR
+      parentName: LowerLeg_RR
+      position: {x: -0.000000037252903, y: -0.000000059604645, z: 0.000000014901161}
+      rotation: {x: 0.49893263, y: -0.5010651, z: 0.49893254, w: 0.5010652}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000001}
+    - name: Paw_RR
+      parentName: LowerLeg_RR
+      position: {x: -0.000000019239142, y: 0.25847438, z: -0.00000001132165}
+      rotation: {x: -0.000000228174, y: -0.000000073574476, z: -0.8319644, w: 0.55482906}
+      scale: {x: 0.9999998, y: 1.0000008, z: 1.0000001}
+    - name: Paw_RR
+      parentName: Paw_RR
+      position: {x: 0.000000014901161, y: -0.00000008940697, z: 0}
+      rotation: {x: 0.70052916, y: -0.09622369, z: 0.7005291, w: 0.0962237}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: RubberPad_RR
+      parentName: Paw_RR
+      position: {x: -0.05870226, y: 0.061090395, z: 0}
+      rotation: {x: 0.70052916, y: -0.09622369, z: 0.7005291, w: 0.0962237}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: Tail_Joint_Mid
+      parentName: Buddy(Clone)
+      position: {x: -0, y: 0.7, z: -0.65}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail_LED
+      parentName: Buddy(Clone)
+      position: {x: -0, y: 0.79, z: -0.812}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail_Segment_01
+      parentName: Buddy(Clone)
+      position: {x: -0, y: 0.655, z: -0.56}
+      rotation: {x: -0.55193704, y: 0, z: -0, w: 0.8338858}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail_Segment_02
+      parentName: Buddy(Clone)
+      position: {x: -0, y: 0.735, z: -0.725}
+      rotation: {x: -0.49242356, y: 0, z: -0, w: 0.87035567}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -158,11 +982,11 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1

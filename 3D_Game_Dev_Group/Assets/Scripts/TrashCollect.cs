@@ -1,42 +1,3 @@
-//using UnityEngine;
-
-//public class TrashCollect : MonoBehaviour
-//{
-//    private bool playerNearby = false;
-
-//    private void OnTriggerEnter(Collider other)
-//    {
-//        if (other.CompareTag("Player"))
-//        {
-//            playerNearby = true;
-
-//            Debug.Log("Press E to Collect Trash");
-//        }
-//    }
-
-//    private void OnTriggerExit(Collider other)
-//    {
-//        if (other.CompareTag("Player"))
-//        {
-//            playerNearby = false;
-//        }
-//    }
-
-//    void Update()
-//    {
-//        if (playerNearby && Input.GetKeyDown(KeyCode.E))
-//        {
-//            CollectTrash();
-//        }
-//    }
-
-//    void CollectTrash()
-//    {
-//        Debug.Log("Trash Collected!");
-
-//        Destroy(gameObject);
-//    }
-//}
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -48,40 +9,61 @@ public class TrashCollect : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.transform.root.CompareTag("Player"))
+        Debug.Log("TRIGGER DETECTED: " + other.name);
+
+        CharacterController playerController =
+            other.GetComponentInParent<CharacterController>();
+
+        if (playerController != null)
         {
             playerNearby = true;
 
+            Debug.Log("PLAYER NEAR TRASH");
             Debug.Log("Press E to Collect");
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.transform.root.CompareTag("Player"))
+        CharacterController playerController =
+            other.GetComponentInParent<CharacterController>();
+
+        if (playerController != null)
         {
             playerNearby = false;
+
+            Debug.Log("PLAYER LEFT TRASH");
         }
     }
 
     void Update()
     {
         if (playerNearby &&
-        Keyboard.current != null &&
-        Keyboard.current.eKey.wasPressedThisFrame)
+            Keyboard.current != null &&
+            Keyboard.current.eKey.wasPressedThisFrame)
         {
+            Debug.Log("E KEY PRESSED");
+
             CollectTrash();
         }
     }
 
     void CollectTrash()
     {
-        if (GameManager.Instance != null)
+        Debug.Log("COLLECT FUNCTION CALLED");
+
+        if (GameManager.Instance == null)
         {
-            GameManager.Instance.AddPoints(pointsValue);
+            Debug.LogError("GameManager Instance is NULL!");
+            return;
         }
 
-        Debug.Log("Trash Collected!");
+        Debug.Log("GameManager Instance Found");
+        Debug.Log("Points Value: " + pointsValue);
+
+        GameManager.Instance.AddPoints(pointsValue);
+
+        Debug.Log("POINTS ADDED: " + pointsValue);
 
         Destroy(gameObject);
     }

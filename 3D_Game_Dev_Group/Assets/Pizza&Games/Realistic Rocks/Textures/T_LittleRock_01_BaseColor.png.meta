@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: cdaa6c6889b711d41909121f1dce2a7c
+=======
 guid: e51d104b9be08424cbbf31cbe1b0d69a
+>>>>>>> kalhara
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -53,9 +57,13 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 0
+<<<<<<< HEAD
+  spriteTessellationDetail: -1
+=======
   spriteTessellationMethod: 0
   spriteTessellationDetail: -1
   spriteGeometrySubdivision: -1
+>>>>>>> kalhara
   textureType: 0
   textureShape: 1
   singleChannelComponent: 0
@@ -71,7 +79,11 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+<<<<<<< HEAD
+    maxTextureSize: 4096
+=======
     maxTextureSize: 2048
+>>>>>>> kalhara
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -95,6 +107,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
+=======
   - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
@@ -108,6 +122,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> kalhara
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -130,3 +145,13 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370706
+  packageName: Realistic rock pack
+  packageVersion: 1.0
+  assetPath: Assets/Pizza&Games/Realistic Rocks/Textures/T_LittleRock_01_BaseColor.png
+  uploadId: 891334
+=======
+>>>>>>> kalhara

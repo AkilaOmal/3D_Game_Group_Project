@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: db272bf84a49e7f42a23daff354bd9f2
 =======
 guid: ae7cb7f691a14764ba9483eeffb1c066
 >>>>>>> Nisandi
+=======
+guid: db272bf84a49e7f42a23daff354bd9f2
+>>>>>>> kalhara
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -58,12 +62,18 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   spriteTessellationMethod: 0
   spriteTessellationDetail: -1
   spriteGeometrySubdivision: -1
 =======
   spriteTessellationDetail: -1
 >>>>>>> Nisandi
+=======
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+>>>>>>> kalhara
   textureType: 0
   textureShape: 1
   singleChannelComponent: 0
@@ -78,10 +88,14 @@ TextureImporter:
   cookieLightType: 0
   platformSettings:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - serializedVersion: 4
 =======
   - serializedVersion: 3
 >>>>>>> Nisandi
+=======
+  - serializedVersion: 4
+>>>>>>> kalhara
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -95,10 +109,14 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   - serializedVersion: 4
 =======
   - serializedVersion: 3
 >>>>>>> Nisandi
+=======
+  - serializedVersion: 4
+>>>>>>> kalhara
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -112,6 +130,9 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> kalhara
   - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
@@ -138,16 +159,23 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
 =======
 >>>>>>> Nisandi
+=======
+>>>>>>> kalhara
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     customData: 
 =======
 >>>>>>> Nisandi
+=======
+    customData: 
+>>>>>>> kalhara
     physicsShape: []
     bones: []
     spriteID: 
@@ -158,16 +186,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     spriteCustomMetadata:
       entries: []
 =======
 >>>>>>> Nisandi
+=======
+    spriteCustomMetadata:
+      entries: []
+>>>>>>> kalhara
     nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 AssetOrigin:
@@ -178,3 +212,5 @@ AssetOrigin:
   assetPath: Assets/Polyeler/EssentialNaturePack/Materials/Textures/CherryBlossom_leaves.png
   uploadId: 920896
 >>>>>>> Nisandi
+=======
+>>>>>>> kalhara

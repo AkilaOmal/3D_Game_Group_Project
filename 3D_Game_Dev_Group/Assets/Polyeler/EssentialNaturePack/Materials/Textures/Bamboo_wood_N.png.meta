@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: b485d4ae73d488a4aac54fa9d9846b02
 =======
 guid: bb124995a906e514eb24acf483a86199
 >>>>>>> Nisandi
+=======
+guid: b485d4ae73d488a4aac54fa9d9846b02
+>>>>>>> kalhara
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -12,10 +16,14 @@ TextureImporter:
     mipMapMode: 0
     enableMipMap: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     sRGBTexture: 1
 =======
     sRGBTexture: 0
 >>>>>>> Nisandi
+=======
+    sRGBTexture: 1
+>>>>>>> kalhara
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -62,14 +70,20 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> kalhara
   spriteTessellationMethod: 0
   spriteTessellationDetail: -1
   spriteGeometrySubdivision: -1
   textureType: 0
+<<<<<<< HEAD
 =======
   spriteTessellationDetail: -1
   textureType: 1
 >>>>>>> Nisandi
+=======
+>>>>>>> kalhara
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -83,10 +97,14 @@ TextureImporter:
   cookieLightType: 0
   platformSettings:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - serializedVersion: 4
 =======
   - serializedVersion: 3
 >>>>>>> Nisandi
+=======
+  - serializedVersion: 4
+>>>>>>> kalhara
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -100,10 +118,14 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   - serializedVersion: 4
 =======
   - serializedVersion: 3
 >>>>>>> Nisandi
+=======
+  - serializedVersion: 4
+>>>>>>> kalhara
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -117,6 +139,9 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> kalhara
   - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
@@ -143,16 +168,23 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
 =======
 >>>>>>> Nisandi
+=======
+>>>>>>> kalhara
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     customData: 
 =======
 >>>>>>> Nisandi
+=======
+    customData: 
+>>>>>>> kalhara
     physicsShape: []
     bones: []
     spriteID: 
@@ -163,16 +195,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     spriteCustomMetadata:
       entries: []
 =======
 >>>>>>> Nisandi
+=======
+    spriteCustomMetadata:
+      entries: []
+>>>>>>> kalhara
     nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 AssetOrigin:
@@ -183,3 +221,5 @@ AssetOrigin:
   assetPath: Assets/Polyeler/EssentialNaturePack/Materials/Textures/Bamboo_wood_N.png
   uploadId: 920896
 >>>>>>> Nisandi
+=======
+>>>>>>> kalhara

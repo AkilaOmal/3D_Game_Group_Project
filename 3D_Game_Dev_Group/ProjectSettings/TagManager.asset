@@ -5,7 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - CinemachineTarget
+<<<<<<< HEAD
   - Water
+=======
+>>>>>>> kalhara
   layers:
   - Default
   - TransparentFX

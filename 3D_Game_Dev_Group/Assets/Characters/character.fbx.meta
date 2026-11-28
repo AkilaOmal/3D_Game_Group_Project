@@ -3,6 +3,7 @@ guid: 018784869b8c32a4d9a57e37eeacbf9d
 ModelImporter:
   serializedVersion: 24600
   internalIDToNameTable: []
+<<<<<<< HEAD
   externalObjects:
   - first:
       type: UnityEngine:Texture2D
@@ -24,6 +25,9 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Boy01_spec
     second: {fileID: 2800000, guid: 837f83c9c0ae99748a034bd52ba40bbf, type: 3}
+=======
+  externalObjects: {}
+>>>>>>> kalhara
   materials:
     materialImportMode: 2
     materialName: 0

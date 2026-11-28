@@ -3,30 +3,43 @@
 --- !u!21 &2100000
 Material:
 <<<<<<< HEAD
+<<<<<<< HEAD
   serializedVersion: 8
 =======
   serializedVersion: 6
 >>>>>>> Nisandi
+=======
+  serializedVersion: 8
+>>>>>>> kalhara
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Pine Forest_LowPoly_material
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> kalhara
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
+<<<<<<< HEAD
 =======
   m_Shader: {fileID: 4800000, guid: 2696cfbd9150dbf439f8e2a66a95d0ff, type: 3}
   m_ShaderKeywords: _NORMALMAP
 >>>>>>> Nisandi
+=======
+>>>>>>> kalhara
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> kalhara
   stringTagMap:
     RenderType: Opaque
   disabledShaderPasses:
@@ -39,6 +52,7 @@ Material:
         m_Texture: {fileID: 2800000, guid: d7ffe1fa944f34298b984303aca8ae36, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
 =======
   stringTagMap: {}
   disabledShaderPasses: []
@@ -46,6 +60,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
 >>>>>>> Nisandi
+=======
+>>>>>>> kalhara
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 261b055f35c3c2844b5a35f49f04c2f3, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -68,10 +84,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_Texture: {fileID: 2800000, guid: d7ffe1fa944f34298b984303aca8ae36, type: 3}
 =======
         m_Texture: {fileID: 2800000, guid: 4086739ae7e30844ab8d0839b83db63e, type: 3}
 >>>>>>> Nisandi
+=======
+        m_Texture: {fileID: 2800000, guid: d7ffe1fa944f34298b984303aca8ae36, type: 3}
+>>>>>>> kalhara
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -87,6 +107,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> kalhara
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -125,6 +148,7 @@ Material:
     - _Emissiv_Amnt: 0
     - _Emissiv_amnt: 0
     - _EnvironmentReflections: 1
+<<<<<<< HEAD
 =======
     m_Floats:
     - _All_Opacity: 2.1
@@ -137,6 +161,8 @@ Material:
     - _Emissiv_Amnt: 0
     - _Emissiv_amnt: 0
 >>>>>>> Nisandi
+=======
+>>>>>>> kalhara
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
@@ -149,6 +175,9 @@ Material:
     - _Opacity_Noise_Steps: 150
     - _Parallax: 0.02
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> kalhara
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _ScreenSpaceReflections: 1
@@ -160,12 +189,15 @@ Material:
     - _SrcBlendAlpha: 1
     - _Steps_: 200
     - _Surface: 0
+<<<<<<< HEAD
 =======
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Steps_: 200
 >>>>>>> Nisandi
+=======
+>>>>>>> kalhara
     - _UVSec: 0
     - _VtxAmnt: 1
     - _Vtx_Color_Amnt: 1
@@ -173,21 +205,30 @@ Material:
     - _Vtx_opacity: 1.66
     - _WindNoiseFrequency: 50
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> kalhara
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< HEAD
 =======
     - _ZWrite: 1
     m_Colors:
 >>>>>>> Nisandi
+=======
+>>>>>>> kalhara
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorA: {r: 0.6470588, g: 0.6470588, b: 0.6470588, a: 1}
     - _ColorBase: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _Noise_Color: {r: 1, g: 1, b: 1, a: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> kalhara
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
@@ -204,5 +245,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
   version: 10
+<<<<<<< HEAD
 =======
 >>>>>>> Nisandi
+=======
+>>>>>>> kalhara
